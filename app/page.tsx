@@ -27,7 +27,7 @@ export default function ImageGroup() {
   const hasError = images.some((img) => img.error);
 
   return (
-    <div className="bg-black flex items-center m-4 p-7 gap-4">
+    <div className="bg-black flex border-rounded-lg items-center m-4 p-7 gap-4">
       
       <div className="relative w-[120px] h-[120px]">
 
@@ -65,7 +65,7 @@ export default function ImageGroup() {
       </div>
 
       
-      <div className="flex ml-[100px] flex-1">
+      <div className="flex ml-[100px] border-rounded-lg flex-1">
         <div>
           <h1 className="text-white text-3xl font-bold ml-4">SUPER 30</h1>
           <p className="text-white ml-4">Moradabad, Uttar Pradesh</p>
